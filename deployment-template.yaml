@@ -34,7 +34,7 @@ metadata:
   name: java-app-service
 spec:
   type: NodePort
-  Selector:
+  selector:
     app: java-app
   ports:
     - port: 8080
