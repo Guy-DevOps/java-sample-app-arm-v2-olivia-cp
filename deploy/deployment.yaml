@@ -15,7 +15,7 @@ spec:
       containers:
         - name: java-app
           # enter the path to your image, be sure to include the correct region prefix
-          image: guy187/java-sample-app:b81a64dfbbcee5fcfef5cc4016e375089c5bf2c5
+          image: guy187/java-sample-app:92e6ec1046ccd18f9cb1bbcb5443a133bf7dc2ff
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
@@ -34,7 +34,7 @@ metadata:
   name: java-app-service
 spec:
   type: NodePort
-  Selector:
+  selector:
     app: java-app
   ports:
     - port: 8080
