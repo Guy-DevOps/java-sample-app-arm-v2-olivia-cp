@@ -21,7 +21,7 @@ public class DemoApplication {
                 <style>
                     body {
                         font-family: Arial, sans-serif;
-                        background: linear-gradient(to right, #cc4e14ff, #2a5298);
+                        background: linear-gradient(to right, #0f9b0f, #000000);
                         color: #fff;
                         text-align: center;
                         padding: 30px;
@@ -85,24 +85,25 @@ public class DemoApplication {
                     <div class="cp-badge">CHECKPOINT 2 (CP-2)</div>
                 </div>
                 
-                <h1>DEVOPS CI CD</h1>
+                <h1>DEVOPS CI CD - v2</h1>
                 <h2>CI/CD com ArgoCD na OCI</h2>
-                <h2>Rodando no <span class="badge">OKE</span> com <span class="badge">ArgoCD</span></h2>
-                <h2>Entrega Contínua na <b>Oracle Cloud Infrastructure</b></h2>
+                <h2>Rodando no <span class="badge">k3s</span> com <span class="badge">ArgoCD</span></h2>
+                <h2>Entrega Contínua na <b>Proxmox</b></h2>
                 
                 <div class="students">
                     <h3>👥 Integrantes do Grupo:</h3>
-                    <div class="student">Bruno Pinheiro dos Santos - RM556184</div>
-                    <div class="student">Roberta Camargo Aquila - RM554455</div>
-                    <div class="student">Fernanda Carmona de Carvalho - RM557064</div>
-                    <div class="student">William Alves Coelho - RM556336</div>
+                    <div class="student">Anderson Huang - RM565920</div>
+                    <div class="student">Bruno Henrique - RM566277</div>
+                    <div class="student">Ronaldo Attamah - RM564630</div>
+                    <div class="student">Luiz Brito - RM562192</div>
+                    <div class="student">Guylherme Miguel - RM562374</div>
                     
                     <div class="professor">
                         <strong>Profª. Olivia Ramos Morais Braga</strong>
                     </div>
                 </div>
                 
-                <footer>&copy; 2025 | CP-2 DevOps - Java + Kubernetes + ArgoCD | FIAP</footer>
+                <footer>&copy; 2026 | CP-2 DevOps - Java + Kubernetes + ArgoCD | FIAP</footer>
             </body>
             </html>
         """;
